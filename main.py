@@ -33,3 +33,8 @@ lista_desordenada2= [51,18,89,65,4,2,3,5,96,85,74,14,25,36,32,65,98,87,45,12]
 
 lista_ordenada2 = fn.orden_menor_a_mayor(lista_desordenada2)
 print("Lista ordenada por la función :",lista_ordenada2)
+
+lista_desordenada3= ["Bruno","Joaquin","Martin","Gonzalo","Franco","Matias","Quimy","Marti"]
+
+lista_ordenada3 = fn.orden_menor_a_mayor(lista_desordenada3)
+print("Lista ordenada por la función :",lista_ordenada3)
