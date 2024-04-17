@@ -36,5 +36,5 @@ print("Lista ordenada por la función :",lista_ordenada2)
 
 lista_desordenada3= ["Bruno","Joaquin","Martin","Gonzalo","Franco","Matias","Quimy","Marti"]
 
-lista_ordenada3 = fn.orden_menor_a_mayor(lista_desordenada3)
+lista_ordenada3 = fn.nombres(lista_desordenada3)
 print("Lista ordenada por la función :",lista_ordenada3)

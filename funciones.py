@@ -48,3 +48,20 @@ def orden_menor_a_mayor(list2):
         if len(list2)==0:
             stop=False
     return listaord
+def nombres(list3):
+    stop=True
+    listaord=[]
+    while stop:
+        menor_le= list3[0]
+        for i in range(len(list3)):
+            x=list3[i]
+
+            if x < menor_le:
+                menor_le=x
+
+        listaord.append(menor_le)
+        list3.remove(menor_le)
+
+        if len(list3)==0:
+            stop=False
+    return listaord
